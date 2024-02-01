@@ -46,10 +46,11 @@ export default function Appmenu() {
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         {
-            navLinks.map((link) => {
+            navLinks.map((link, i) => {
                
                 return(
-                  <DropdownMenuItem className='p-4 gap-4'>
+
+                  <DropdownMenuItem className='p-4 gap-4' key={i}> 
                     <span className='text-xl py-0.5'>{link.icon}</span><p className='font-medium'>{link.name}</p>
                   </DropdownMenuItem>
 
