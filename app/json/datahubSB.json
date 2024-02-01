@@ -1,0 +1,6 @@
+[
+    { name: "Dashboard", href: "/", icon: <FaTachometerAlt  />},
+    { name: "Management", href: "/management", icon: <DiDatabase />},
+    { name: "Accounts", href: "/accounts", icon: <AiOutlineDatabase />},
+    { name: "Global Settings", href: "/accounts", icon: <GiSettingsKnobs />}
+] 

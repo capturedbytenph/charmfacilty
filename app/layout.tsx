@@ -1,7 +1,7 @@
-"use client"
+
 import { Inter, Tiro_Devanagari_Sanskrit } from "next/font/google";
 import "./globals.css";
-import { usePathname} from 'next/navigation';
+
 
 import { ThemeProvider } from "@/components/theme-provider";
 import Navmenu from "@/components/navmenu";
@@ -20,7 +20,6 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
-  const pathname = usePathname()
   return (
     <html lang="en">
       <body className={inter.className}>
@@ -35,14 +34,14 @@ export default function RootLayout({
             <Navmenu />
             
             
-            <div className="w-full p-4 flex flex-row">
+            <div className="w-full flex flex-row">
               
-                
-                <div className={ pathname == '/' ? 'hidden':'w-60 p-0 h-screen shadow-md'}>
+            <div className="w-60 p-0 h-screen shadow-md"> 
+                {/* <div className={ pathname == '/' ? 'hidden':'w-60 p-0 h-screen shadow-md'}> */}
               <Sidebar />
               </div>
               
-              <div className="p-4">
+              <div className="w-screen p-4">
                 { children }
               </div>
               

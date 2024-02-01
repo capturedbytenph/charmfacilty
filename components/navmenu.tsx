@@ -11,7 +11,7 @@ import { MdLogout } from "react-icons/md";
 
 export default function Navmenu() {
   return (
-    <div className="flex drop-shadow-md p-4 px-10 item-center">
+    <div className="flex shadow-lg p-4 px-10 item-center">
       <div className="flex items-center"><h1 className="font-bold">LOGO & FACILITY NAME GOES HERE</h1></div>
       
       <div className='flex flex-row pl-3 px-0'>
