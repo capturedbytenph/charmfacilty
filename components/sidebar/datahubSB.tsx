@@ -10,13 +10,16 @@ import { FaTachometerAlt } from "react-icons/fa";
 import { DiDatabase } from "react-icons/di";
 import { AiOutlineDatabase } from "react-icons/ai";
 import { GiSettingsKnobs } from "react-icons/gi";
+import { RiProfileLine } from "react-icons/ri";
+import { PiOfficeChairBold } from "react-icons/pi";
 
 export default function DatahubSB() {
     const navLinks = [
         { name: "Dashboard", href: "/datahub", icon: <FaTachometerAlt  />},
-        { name: "Management", href: "/dh/management", icon: <DiDatabase />},
-        { name: "Accounts", href: "/dh/accounts", icon: <AiOutlineDatabase />},
-        { name: "Global Settings", href: "/dh/settings", icon: <GiSettingsKnobs />},
+        { name: "Management", href: "/datahub/management", icon: <DiDatabase />},
+        { name: "Patient Records", href: "/datahub/patients", icon: <RiProfileLine />},
+        { name: "Employee Records", href: "/datahub/employee", icon: <PiOfficeChairBold />},
+        { name: "Global Settings", href: "/datahub/settings", icon: <GiSettingsKnobs />},
         
       ]
   

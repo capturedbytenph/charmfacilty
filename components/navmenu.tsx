@@ -8,17 +8,17 @@ import { IoNotificationsOutline } from "react-icons/io5";
 import { RiMessage2Line } from "react-icons/ri";
 import { PiHeartbeatFill } from "react-icons/pi";
 import { MdLogout } from "react-icons/md";
-
+import { FaHospitalSymbol } from "react-icons/fa";
 export default function Navmenu() {
   return (
-    <div className="flex shadow-lg p-4 px-10 item-center">
-      <div className="flex items-center"><h1 className="font-bold">LOGO & FACILITY NAME GOES HERE</h1></div>
+    <div className="flex shadow-lg py-4 px-5 item-center">
+      <div className="flex items-center flex-row gap-2"><FaHospitalSymbol fontSize={32} /><h1 className="font-bold">OSPITAL NG PILIPINAS</h1></div>
       
       <div className='flex flex-row pl-3 px-0'>
                             <PiHeartbeatFill fontSize={32} className='text-red-500'/>
                             <div className='flex flex-col pl-2'>
-                                <span className='font-black text-xs'>POWERED BY</span>
-                                <span className='font-black text-lg leading-4'>CHARMS</span>
+                                <span className='text-xs'>POWERED BY</span>
+                                <span className='font-black text-lg leading-4 tracking-widest'>CHARMS</span>
                             </div>
                         </div>
       

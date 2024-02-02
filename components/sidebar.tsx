@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 export default function Sidebar() {
   return (
-    <div className='flex justify-cente flex-col mt-5'>
+    <div className='flex justify-cente flex-col mt-5 pl-2'>
         
         <Button variant='ghost' className='h-full w-full flex flex-row justify-start p-4 gap-4 mb-4'>
             <Avatar className='size-12'>

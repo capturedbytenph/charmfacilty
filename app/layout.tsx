@@ -36,7 +36,7 @@ export default function RootLayout({
             
             <div className="w-full flex flex-row">
               
-            <div className="w-60 p-0 h-screen shadow-md"> 
+            <div className="w-60 p-0 "> 
                 {/* <div className={ pathname == '/' ? 'hidden':'w-60 p-0 h-screen shadow-md'}> */}
               <Sidebar />
               </div>
@@ -46,6 +46,7 @@ export default function RootLayout({
               </div>
               
             </div>
+
           
           
           
