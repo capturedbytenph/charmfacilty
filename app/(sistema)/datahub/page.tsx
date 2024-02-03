@@ -20,7 +20,7 @@ export default function Datahub() {
           TRANSACTIONS
         </CardTitle>
         <CardContent>
-          
+          LINE CHART KUNWARI
         </CardContent>
        
        </Card>
